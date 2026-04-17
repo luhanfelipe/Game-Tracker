@@ -1,1 +1,33 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <tittle>Game Tracker</tittle>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> GAME TRACKER</h1>
+
+    <div> class="form">
+        <input id="title" placeholder="Nome do Jogo">
+        <input id="rating" type="number"
+            placeholder="Nota do Jogo (0-10)">
+
+        <select id="status">
+            <option value="playing">Jogando</option>
+            <option value="completed">Completo</option>
+            <option value="dropped">Abandonado</option>
+        </select>
+
+        <button id="addButton">Adicionar Jogo()</button>
+    </div>
+
+    <ul id="gameList"></ul>
+
+    <script src="script.ts"></script>
+
+</body>
+</html>
